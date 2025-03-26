@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  output: "export",
+  basePath: "/Bee-blessing", // Replace with your repository name
+  trailingSlash: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
