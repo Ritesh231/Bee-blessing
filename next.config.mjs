@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/Bee-blessing", // Replace with your repository name
-  trailingSlash: true,
+  reactStrictMode: true,
+  output: 'export',
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
